@@ -1,0 +1,38 @@
+theme = "beautifulhugo"
+baseURL = "https://rpostnl.rmhogervorst.nl/"
+languageCode = "nl-nl"
+title = "Nederlandstalige R-posts"
+
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+enableEmoji = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:slug/"
+    
+[Params]
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  rss = true
+  comments = false
+  readingTime = true
+  modifyLink = true
+  GithubEdit = "https://github.com/RMHogervorst/nl_blog/tree/master/content/"
+
+
+[Author]
+  name = "Roel M. Hogervorst"
+  website = "rmhogervorst.nl"
+  email = "hogervorst.rm@gmail.com"
+  keybase = "rmhogervorst"
+  github = "RMHogervorst"
+  gitlab = "rmhogervorst"
+  bitbucket = "RMHogervorst"
+  twitter = "RMHoge"
+  linkedin = "rmhogervorst"
+  stackoverflow = "users/5573955/roel-hogervorst"
+ 

@@ -1,0 +1,49 @@
+---
+title: Een nieuw blog!
+author: Roel M. Hogervorst
+date: '2018-06-01'
+slug: een-nieuw-blog
+categories: []
+tags: []
+subtitle: ''
+---
+
+<!-- content  -->
+<!-- try to think of the following things:
+ - tell what you learn in this part 
+ - problem statement
+ - sub headings
+ - kicker
+ - references, explicitly name them. 
+---------
+Good tutorials are: 
+- quick. tell what you want to do, how to do it
+- easy: success is important. playtest the tutorial under different circumstances
+- not to easy: Don't get htem throug ht toturoial onluy to runinto a wall later on. 
+
+-->
+
+Vandaag ben ik een nieuw blog begonnen met Nederlandstalige dingen. 
+
+Waarom?
+
+Er zijn extreem veel Engelstalige blogposts te vinden over R, kijk maar bij <https://R-bloggers.com> waar veel 
+posts worden geaggregeerd, kijk ook eens bij <https://rweekly.org>. Echter, niet iedereen is even comfortabel
+met Engels. Daarom wil ik een site beginnen met Nederlandstalige links. Er is al een verzameling (van 1 post)
+of deze aggregatiewebsite: <https://www.r-bloggers.com/lang/-/dutch>. 
+
+Ik zal een gedeelte van mijn posts in het Engels <http://rmhogervorst.nl/cleancode/> vertalen en een aantal
+nieuwe introposts maken. Wil je bijdragen? Graag! Neem contact met me op (zie onderaan) of maak een pull-request.
+
+Zie je spelfouten of grammaticale problemen (waarschijnlijk, ik lees er altijd overeen...), 
+help ze herstellen door onderaan depagina te klikken op wijzigen
+en dan kan je via github een wijziging doorvoeren die ik waarschijnlijk accepteer, alvast bedankt!
+
+##### Staat van de machine
+<details>
+<summary> Toen ik deze post maakte waren dit mijn packages / klik om te zien /  </summary>
+
+```{r}
+sessioninfo::session_info()
+```
+</details>
